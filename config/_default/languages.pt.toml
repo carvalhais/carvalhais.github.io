@@ -1,0 +1,50 @@
+# Portuguese specific configurations
+# ==============================================================================
+languageName = "Português"
+contentDir = "content/pt"
+  
+  [params]
+  description = "O ponto de encontro do radioamador brasileiro na Internet."
+  keywords = [ "radioamador", "SDR", "HF", "VHF", "UHF", "radio", "py", "px", 
+             "ham radio" ]
+  DateFormat = "02 Jan 06 15:04 -0700"
+
+    [params.label]
+    text = "Início"
+    # icon = "images/logo_small.png"
+    # iconHeight = 48
+    
+    [params.editPost]
+    URL = "https://github.com/carvalhais/carvalhais.github.io/content/pt"
+    Text = "Sugerir alterações"
+    appendFilePath = true
+    
+    [params.profileMode]
+    subtitle = "O ponto de encontro do radioamador brasileiro na Internet."
+    imageTitle = "Logo do site Ham Radio Brasil."
+    
+      [[params.profileMode.buttons]]
+      name = "Círculo SDR"
+      url = "sdr"
+      
+      [[params.profileMode.buttons]]
+      name = "Catálogo Web"
+      url = "catalog"
+
+  [[menu.main]]
+  identifier = "about"
+  name = "Sobre"
+  url = "/about"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "resources"
+  name = "Recursos"
+  url = "/resources"
+  weight = 20
+
+  # [[menu.main]]
+  # identifier = "example"
+  # name = "example.org"
+  # url = "https://example.org"
+  # weight = 30

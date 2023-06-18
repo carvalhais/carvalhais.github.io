@@ -1,0 +1,86 @@
+title = "Ham Radio Brasil"
+languageCode = "pt-br"
+defaultContentLanguage = "pt"
+theme = "PaperMod"
+# paginate = 5
+# pygmentsUseClasses = true
+# enableRobotsTXT = true
+
+# [minify]
+# disableXML = true
+# minifyOutput = true
+
+[params]
+title = "Ham Radio Brasil"
+author = "André Carvalhais"
+defaultTheme = "auto"
+disableThemeToggle = false
+# images = [ "<link or path of image for opengraph, twitter-cards>" ]
+# mainSections = ['sdr']
+# ShowReadingTime = true
+# ShowShareButtons = true
+# ShowPostNavLinks = true
+# ShowBreadCrumbs = true
+# ShowCodeCopyButtons = false
+# ShowWordCount = true
+# ShowRssButtonInSectionTermList = true
+# UseHugoToc = true
+# disableSpecial1stPost = false
+# disableScrollToTop = false
+# comments = false
+# hidemeta = false
+# hideSummary = false
+# showtoc = false
+# tocopen = false
+
+    [params.assets]
+    favicon = "images/favicon.ico"
+    favicon16x16 = "images/favicon16.ico"
+    favicon32x32 = "images/favicon32.ico"
+    # apple_touch_icon = "<link / abs url>"
+    # safari_pinned_tab = "<link / abs ul>"
+  
+    [params.profileMode]
+    enabled = true
+    title = "Ham Radio Brasil"
+    imageUrl = "images/logo_small.png"
+    imageWidth = 256
+    imageHeight = 256
+  
+    [params.cover]
+    hidden = true
+    hiddenInList = true
+    hiddenInSingle = true
+  
+    # [params.fuseOpts]
+    # isCaseSensitive = false
+    # shouldSort = true
+    # location = 0
+    # distance = 1_000
+    # threshold = 0.4
+    # minMatchCharLength = 0
+    # keys = [ "title", "permalink", "summary", "content" ]
+  
+    [[params.socialIcons]]
+    name = "telegram"
+    url = "https://t.me/hamradiobrasil"
+  
+    # [[params.socialIcons]]
+    # name = "stackoverflow"
+    # url = "https://stackoverflow.com"
+  
+    # [[params.socialIcons]]
+    # name = "github"
+    # url = "https://github.com/"
+  
+    # [params.analytics.google]
+    # SiteVerificationTag = "G-4XS1WJZPSN"
+  
+    # [params.analytics.bing]
+    # SiteVerificationTag = "XYZabc"
+  
+    # [params.analytics.yandex]
+    # SiteVerificationTag = "XYZabc"
+
+  [markup.highlight]
+  noClasses = false
