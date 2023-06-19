@@ -13,15 +13,16 @@ Leopoldo/MG bairro Parque Andiara, mantida por André Carvalhais.
 A ser disponibilizado.
 
 ## Informações técnicas
-| Parâmetro     | Detalhamento                                    |
-|---------------|-------------------------------------------------|
-| _Receptor_    | AirSpy HF+                                      |
-| _Span máximo_ | 660 Khz                                         |
-| _BW do canal_ | 15 KHz                                          |
-| _Antena_      | Loop magnética                                  |
-| _Daemon_      | SpyServer versão 2.0.1700                       |
-| _Sist. Oper._ | Fedora Linux 38 (Server Edition)                |
-| _Hardware_    | Mini PC com Intel Atom @ 1.44 Ghz e 4 GB de RAM |
+| Parâmetro        | Detalhamento                                    |
+|------------------|-------------------------------------------------|
+| _Receptor_       | AirSpy HF+                                      |
+| _Faixa de freq._ | 0.5 KHz a 260 MHz                               |
+| _Span máximo_    | 660 Khz                                         |
+| _BW do canal_    | 15 KHz                                          |
+| _Antena_         | Loop magnética                                  |
+| _Daemon_         | SpyServer versão 2.0.1700                       |
+| _Sist. Oper._    | Fedora Linux 38 (Server Edition)                |
+| _Hardware_       | Mini PC com Intel Atom @ 1.44 Ghz e 4 GB de RAM |
 
 ## Observações
 Antena instalada em janela de apartamento com visão desobstruída da direção 
