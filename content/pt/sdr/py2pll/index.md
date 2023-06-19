@@ -26,6 +26,7 @@ http://186.193.231.135:7999
 | _Daemon_         | Proprietário                                    |
 | _Sist. Oper._    | Debian 9                                        |
 | _Hardware_       | Beaglebone Black (AM335x, Texas Instruments)    |
+| _Coordenadas_    | -46.536527, -23.768954                          |
 
 ## Observações
 Antena loop em rotor acima de laje, orientada para minimizar interferências dos 

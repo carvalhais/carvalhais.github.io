@@ -23,6 +23,7 @@ A ser disponibilizado.
 | _Daemon_         | SpyServer versão 2.0.1700                       |
 | _Sist. Oper._    | Fedora Linux 38 (Server Edition)                |
 | _Hardware_       | Mini PC com Intel Atom @ 1.44 Ghz e 4 GB de RAM |
+| _Coordenadas_    | -44.031887, -19.602574                          |
 
 ## Observações
 Antena instalada em janela de apartamento com visão desobstruída da direção 
