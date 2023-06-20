@@ -1,0 +1,35 @@
+{{ $mapName := .Get "mapName" }}
+
+{{ $mapWidth := .Get "mapWidth" | default "100%" }}
+{{ $mapHeight := .Get "mapHeight" | default "300px" }}
+
+{{ $scaleControl := .Get "scaleControl" | default "false"  }}
+{{ $miniMap := .Get "miniMap" | default "false" }}
+{{ $scrollWheelZoom := .Get "scrollWheelZoom" | default "true" }}
+{{ $zoomControl := .Get "zoomControl" | default "true" }}
+{{ $allowEdit := .Get "allowEdit" | default "false" }}
+{{ $moreControl := .Get "moreControl" | default "false" }}
+{{ $searchControl := .Get "searchControl" | default "null" }}
+{{ $tilelayersControl := .Get "tilelayersControl" | default "null" }}
+{{ $embedControl := .Get "embedControl" | default "null" }}
+{{ $datalayersControl := .Get "datalayersControl" | default "false" }}
+{{ $onLoadPanel := .Get "onLoadPanel" | default "undefined" }}
+{{ $captionBar := .Get "captionBar" | default "false" }}
+{{ $captionMenus := .Get "captionMenus" | default "true" }}
+{{ $fullscreenControl := .Get "fullscreenControl" | default "null" }}
+
+{{ $scale := .Get "scale" | default 7 }}
+{{ $coordX := .Get "coordX" | default 46.0275 }}
+{{ $coordY := .Get "coordY" | default 7.483 }}
+
+<div class="block">
+    <div class="google-map">
+        <iframe 
+            width="{{ $mapWidth }}" 
+            height="{{ $mapHeight }}" 
+            frameBorder="0" 
+            allowfullscreen 
+            allow="geolocation" 
+            src="https://umap.openstreetmap.fr/en/map/{{- $mapName -}}?scaleControl={{ $scaleControl }}&miniMap={{ $miniMap }}&scrollWheelZoom={{ $scrollWheelZoom }}&zoomControl={{ $zoomControl }}&allowEdit={{ $allowEdit }}&moreControl={{ $moreControl }}&searchControl={{ $searchControl }}&tilelayersControl={{ $tilelayersControl }}&embedControl={{ $embedControl }}&datalayersControl={{ $datalayersControl }}&onLoadPanel={{ $onLoadPanel }}&captionBar={{ $captionBar }}&captionMenus=true&fullscreenControl={{ $fullscreenControl }}#{{ $scale }}/{{ $coordX }}/{{ $coordY }}"></iframe>
+    </div>
+</div>

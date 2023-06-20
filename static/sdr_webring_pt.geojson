@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PY2PLL",
+        "description": "Utiliza plataforma Beaglebone, padrão para o KiWi SDR, acessível através de web browsers comuns, sediada no município de São Bernardo do Campo/SP, na altura do Km 27 da Via Anchieta. O equipamento é de propriedade do radioescuta Rudolf Grimm e compartilha antenas de recepção existentes na estação PY2PLL, através de divisor 1:4 ou 1:2. Durante os finais de semana a recepção pode ser interferida pois a estação participa de vários contestes ao longo do ano.\n\nhttps://ham.radio.br/sdr/py2pll/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.536527,
+          -23.768954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PY4BIT",
+        "description": "Estação mobiliada com equipamento AirSpy HF+ utilizando o software SDR# para difusão dos sinais de rádio através da Internet, sediada no município de Pedro Leopoldo/MG bairro Parque Andiara, mantida por André Carvalhais.\n\nhttps://ham.radio.br/sdr/py4bit/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.031887,
+          -19.602574
+        ]
+      }
+    }
+  ]
+}

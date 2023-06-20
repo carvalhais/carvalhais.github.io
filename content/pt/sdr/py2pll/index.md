@@ -2,7 +2,6 @@
 title: "PY2PLL"
 date: 2023-06-18T21:35:00-03:00
 author: "Marcus Ramos"
-ShowBreadCrumbs: true
 ---
 
 Utiliza plataforma Beaglebone, padrão para o KiWi SDR, acessível através de web 

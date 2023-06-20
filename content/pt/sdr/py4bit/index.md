@@ -2,7 +2,6 @@
 title: "PY4BIT"
 date: 2023-06-17T18:28:29-03:00
 author: "André Carvalhais"
-ShowBreadCrumbs: true
 ---
 
 Estação mobiliada com equipamento AirSpy HF+ utilizando o software SDR# para 
