@@ -18,6 +18,20 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "PU7OLV",
+        "description": "Utiliza rtl_sdr e hackrf, acessível através de rtl_tcp, sediado no município de Fortaleza/CE, na bairro Papicu."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.4711264,
+          -3.7348588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "PY4BIT",
         "description": "Estação mobiliada com equipamento AirSpy HF+ utilizando o software SDR# para difusão dos sinais de rádio através da Internet, sediada no município de Pedro Leopoldo/MG bairro Parque Andiara, mantida por André Carvalhais.\n\nhttps://ham.radio.br/sdr/py4bit/"
       },
