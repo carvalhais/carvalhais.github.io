@@ -22,14 +22,16 @@ A ser disponibilizado.
 | _Daemon_         | rtl-tcp                                         |
 | _Sist. Oper._    | Ubuntu server 22.04.2 LTS                       |
 | _Hardware_       | generico i5 com 8GB de RAM                      |
-| _Grid_           | HI06sg                                          |
+| _Coordenadas_    | -38.4710967 -3.7348292                          |
+
 
 ## Observações
-Antenas Loop magnetica e j-polo instaladas em janelas de apartamento com
+Antenas Loop magnetica e j-pole instaladas em janelas de apartamento com
 visão desobstruída da direção Europa e America central. Antena turnstile e
 dipolo no terraço do predio. Ruido intermédiarion.
 
 **Atenção**: o rádio definido por software não é acessível diretamente pelo
 navegador, o acesso é feito de forma nativa através do software
-[SDR#](https://airspy.com/download/), que deve ser previamente instalado no
-computador do usuário.
+[SDR#](https://airspy.com/download/), ou o [sdr++](https://www.sdrpp.org) que
+devem ser previamente instalado no computador do usuário e onde deve-se
+selecionar `rtl_tcp` como origem.
